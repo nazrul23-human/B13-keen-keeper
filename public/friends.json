@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "https://i.ibb.co.com/0jqHpnp/man1.jpg",
+    "email": "alex@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met during university. Loves hiking and photography.",
+    "goal": 14,
+    "next_due_date": "2026-06-12"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://i.ibb.co.com/2nL4J7d/woman1.jpg",
+    "email": "sarah@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "best friend"],
+    "bio": "Former coworker and travel partner.",
+    "goal": 10,
+    "next_due_date": "2026-06-20"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://i.ibb.co.com/WzD1L9x/man2.jpg",
+    "email": "michael@example.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["gym", "neighbor"],
+    "bio": "Workout buddy from the local gym.",
+    "goal": 10,
+    "next_due_date": "2026-06-15"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://i.ibb.co.com/6Y0yf6H/woman2.jpg",
+    "email": "emma@example.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["school", "friend"],
+    "bio": "School friend who loves reading books.",
+    "goal": 14,
+    "next_due_date": "2026-06-10"
+  },
+  {
+    "id": 5,
+    "name": "David Kim",
+    "picture": "https://i.ibb.co.com/8m0KqL6/man3.jpg",
+    "email": "daniel@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["football", "team"],
+    "bio": "Teammate from the local football club.",
+    "goal": 7,
+    "next_due_date": "2026-06-25"
+  },
+  {
+    "id": 6,
+    "name": "Emma Wilson",
+    "picture": "https://i.ibb.co.com/6v9J0xW/woman3.jpg",
+    "email": "olivia@example.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["music", "artist"],
+    "bio": "Singer-songwriter friend from music class.",
+    "goal": 12,
+    "next_due_date": "2026-06-16"
+  },
+  {
+    "id": 7,
+    "name": "Lisa Nakamura",
+    "picture": "https://i.ibb.co.com/0jqHpnp/man1.jpg",
+    "email": "alex@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met during university. Loves hiking and photography.",
+    "goal": 14,
+    "next_due_date": "2026-06-12"
+  },
+  {
+    "id": 8,
+    "name": "James Wright",
+    "picture": "https://i.ibb.co.com/WzD1L9x/man2.jpg",
+    "email": "michael@example.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["gym", "neighbor"],
+    "bio": "Workout buddy from the local gym.",
+    "goal": 10,
+    "next_due_date": "2026-06-15"
+  },
+  {
+    "id": 9,
+    "name": "David Kim",
+    "picture": "https://i.ibb.co.com/8m0KqL6/man3.jpg",
+    "email": "daniel@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["football", "team"],
+    "bio": "Teammate from the local football club.",
+    "goal": 7,
+    "next_due_date": "2026-06-25"
+  },
+  {
+    "id": 10,
+    "name": "Emma Wilson",
+    "picture": "https://i.ibb.co.com/2nL4J7d/woman1.jpg",
+    "email": "sarah@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "best friend"],
+    "bio": "Former coworker and travel partner.",
+    "goal": 10,
+    "next_due_date": "2026-06-20"
+  }
+]

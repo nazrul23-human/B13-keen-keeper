@@ -56,7 +56,7 @@ const Stats = () => {
                 cx="50%"
                 cy="50%"
                 innerRadius={90}
-                outerRadius={110}
+                outerRadius={120}
                 paddingAngle={8}
                 dataKey="value"
               >

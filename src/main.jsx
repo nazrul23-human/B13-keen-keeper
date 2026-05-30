@@ -4,9 +4,14 @@ import "./index.css";
 
 import { RouterProvider } from "react-router-dom";
 import router from "./routes/Routes";
+import TimelineProvider from "./context/TimelineContext";
+import { Toaster } from "react-hot-toast";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <TimelineProvider>
+      <RouterProvider router={router} />
+      <Toaster position="top-right" />
+    </TimelineProvider>
   </React.StrictMode>
 );

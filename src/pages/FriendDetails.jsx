@@ -2,15 +2,17 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import callImg from "../assets/call.png";
 import textImg from "../assets/text.png";
-import videoImg from "../assets/video.png";
+import videoImg from "../assets/Video.png";
 import Snooze from "../assets/Snooze.png";
 import Archive from "../assets/Archive.png";
 import deleteImg from "../assets/delete.png";
+import { useContext } from "react";
+import { TimelineContext } from "../context/TimelineContext";
+import toast from "react-hot-toast";
 
 const FriendDetails = () => {
-
+    const { addTimeline } = useContext(TimelineContext);
     const { id } = useParams();
-
     const [friend, setFriend] = useState(null);
 
     useEffect(() => {
@@ -30,6 +32,7 @@ const FriendDetails = () => {
     }, [id]);
 
     if (!friend) {
+
         return (
             <div className="flex justify-center py-20">
                 <span className="loading loading-spinner loading-lg"></span>
@@ -48,11 +51,15 @@ const FriendDetails = () => {
         goal,
         next_due_date,
     } = friend;
-
     const statusColors = {
         overdue: "bg-red-100 text-red-500",
         "almost due": "bg-yellow-100 text-yellow-500",
         "on-track": "bg-green-100 text-green-500",
+    };
+
+    const handleCheckIn = (type) => {
+        addTimeline(type, name);
+        toast.success(`${type} added successfully`);
     };
 
     return (
@@ -100,30 +107,31 @@ const FriendDetails = () => {
                     {email}
                 </p>
 
+
                 {/* Buttons */}
                 <div className="space-y-3 mt-8">
 
                     <button className="btn text-black w-full">
                         <img
-                                src={Snooze}
-                                alt="Snooze"
-                                className="w-4 h-4"></img>
+                            src={Snooze}
+                            alt="Snooze"
+                            className="w-4 h-4"></img>
                         Snooze 2 Weeks
                     </button>
 
                     <button className="btn text-black w-full">
                         <img
-                                src={Archive}
-                                alt="Archive"
-                                className="w-4 h-4"></img>
+                            src={Archive}
+                            alt="Archive"
+                            className="w-4 h-4"></img>
                         Archive
                     </button>
 
                     <button className="btn text-red-600 w-full">
                         <img
-                                src={deleteImg}
-                                alt="deleteImg"
-                                className="w-4 h-4"></img>
+                            src={deleteImg}
+                            alt="deleteImg"
+                            className="w-4 h-4"></img>
                         Delete
                     </button>
 

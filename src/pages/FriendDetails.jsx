@@ -157,7 +157,7 @@ const FriendDetails = () => {
                     </div>
 
                     <div className="bg-white text-center shadow-md rounded-2xl p-6">
-                        <p className="text-3xl font-bold mt-4 [#244D3F]]">
+                        <p className="text-3xl font-bold mt-4 [#244D3F]">
                             {goal}
                         </p>
                         <h3 className="text-lg font-semibold">

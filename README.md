@@ -1,16 +1,63 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Name of project: 
+KeenKeeper — Keep Your Friendships Alive
 
-Currently, two official plugins are available:
+## Description:
+KeenKeeper is a friendship management web application that helps users maintain meaningful relationships by tracking interactions, monitoring communication goals, and visualizing friendship activity. The application makes it easier to stay connected with friends through organized contact reminders and interaction history.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used :
 
-## React Compiler
+* React.js
+* React Router DOM
+* Tailwind CSS
+* DaisyUI
+* Recharts
+* React Hot Toast
+* Context API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Key Features:
 
-## Expanding the ESLint configuration
+## 1. Friend Management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* View all friends in a responsive card layout.
+* Access detailed friend profiles with contact information, tags, goals, and status indicators.
+* Visual status tracking (Overdue, Almost Due, On-Track).
+
+## 2. Interaction Timeline
+
+* Log friendship interactions using Call, Text, and Video actions.
+* Automatically create timeline entries with current dates.
+* Filter timeline activities by interaction type.
+
+## 3. Friendship Analytics
+
+* Interactive Recharts donut chart displaying Call, Text, and Video interaction statistics.
+* Real-time analytics updates based on user activities.
+* Clear visual overview of friendship engagement.
+
+## Responsive Design
+
+The application is fully responsive and optimized for:
+
+* Mobile Devices
+* Tablets
+* Desktop Screens
+
+## Pages Included
+
+* Home Page
+* Friend Details Page
+* Timeline Page
+* Friendship Analytics Page
+* Custom 404 Page
+
+## Additional Features
+
+* Loading Spinner
+* Toast Notifications
+* Dynamic Routing
+* Timeline Filtering
+* Responsive Navigation
+* Custom Footer
+
+
